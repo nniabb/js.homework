@@ -64,7 +64,7 @@ function findYear(year){
 let array = [5, 10, 55, 9, 34, 70]
 
 function findMax(array){
-    let max = 0
+    let max = array[0]
     for(let i=0; i<array.length; i++){
         if(max<array[i]){
             max = array[i]
@@ -80,7 +80,7 @@ console.log(findMax(array))
 let newArr = [1, 37, 16, 15, 20, 43]
 
 function findMin(newArr){
-    let min = 0
+    let min = array[0]
     for(let i=0; i<newArr.length; i++){
         if(min>newArr[i]){
             min = newArr[i]
